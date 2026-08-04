@@ -1,5 +1,5 @@
 import axios from "axios";
-
+ // Fake Store API has a limited collection of 20 products
 const BASE_URL = "https://fakestoreapi.com";
 
 const api = axios.create({
