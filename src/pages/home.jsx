@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef } from "react";
-import Hero from "../components/Hero";
-import ProductGrid from "../components/ProductGrid";
+import Hero from "../components/hero";
+import ProductGrid from "../components/productGrid";
 import { getCategories, getProducts } from "../services/api";
 import OfferBanner from "../components/offerbanner";
-import Testimonials from "../components/Testimonials";
+import Testimonials from "../components/testimonials";
 
 const Home = ({search,productsRef}) => {
   const [products, setProducts] = useState([]);
