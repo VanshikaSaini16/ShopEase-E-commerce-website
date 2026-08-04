@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import Hero from "../components/hero";
-import ProductGrid from "../components/productGrid";
+import ProductGrid from "../components/ProductGrid";
 import { getCategories, getProducts } from "../services/api";
 import OfferBanner from "../components/offerbanner";
 import Testimonials from "../components/testimonials";
